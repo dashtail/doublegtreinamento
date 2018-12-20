@@ -8,11 +8,9 @@ class Evento():
         self.data = data
         self.organizador = ""
 
-
 festa_no_ap = Evento("festa no ap", "01/01/2019")
-
 festa_no_ap.organizador = "pseudonerds"
 
-
-print(festa_no_ap.titulo)
+#exibo a classe
+print(festa_no_ap)
 
